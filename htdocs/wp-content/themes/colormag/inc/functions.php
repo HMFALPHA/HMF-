@@ -456,7 +456,7 @@ function colormag_footer_copyright() {
    $default_footer_value = sprintf( __( 'Copyright &copy; %1$s %2$s. All rights reserved.', 'colormag' ), date( 'Y' ), $site_link ).'<br>'.sprintf( __( 'Theme: %1$s by %2$s.', 'colormag' ), 'ColorMag', $tg_link ).' '.sprintf( __( 'Powered by %s.', 'colormag' ), $wp_link );
 
    $colormag_footer_copyright = '<div class="copyright">'.$default_footer_value.'</div>';
-   echo $colormag_footer_copyright;
+//   echo $colormag_footer_copyright;
 }
 endif;
 
