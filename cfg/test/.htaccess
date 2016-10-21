@@ -10,3 +10,8 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+AuthType Basic
+AuthName "Not yet!"
+AuthUserFile /var/www/clients/client1/web1/web/.htpasswd
+Require valid-user
