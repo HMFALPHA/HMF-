@@ -1865,6 +1865,13 @@ a#scroll-up:hover {
 .widget_featured_slider img {
    margin-bottom: 0;
 }
+ /* Change for Background on slide-content 
+	.transparent{
+  		background:rgba(255,255,255,0.5);
+	}
+
+
+ */
 .widget_featured_slider .slide-content {
    position: absolute;
    bottom: 0;
